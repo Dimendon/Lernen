@@ -31,8 +31,6 @@ def ausfuehren(datum):
     # Neues Word-Dokument
     DOCUMENT = "Rangliste.docx"
     document = docx.Document()
-    #print("Welchem Datum entspricht die Rangliste")
-    #datum = input("Bitte eingeben:")
 
     u1 = document.add_heading("Erste Überschrift", 0)
     u2 = document.add_heading("Zweite Überschrift", 1)
@@ -98,4 +96,5 @@ escape.pack()
 root.mainloop()
 #zweiter Schritt
 ausfuehren(x)
+
 
